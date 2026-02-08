@@ -34,7 +34,7 @@ const Footer = () => {
         </div>
 
         <div className="mt-8 pt-6 border-t border-border/50 text-center text-xs text-muted-foreground">
-          © 2014 – 2025 TANAYA. All rights reserved.
+          © 2014 – 2026 TANAYA. All rights reserved.
         </div>
       </div>
     </footer>
