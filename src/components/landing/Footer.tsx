@@ -1,4 +1,4 @@
-import { Instagram, Twitter, Facebook } from "lucide-react";
+
 import tanayaLogo from "@/assets/tanaya-logo.png";
 
 const Footer = () => {
@@ -12,17 +12,7 @@ const Footer = () => {
             <p className="text-sm text-muted-foreground font-medium">TANAYA – Caring for Daughters</p>
           </div>
 
-          <div className="flex items-center gap-4">
-            <a href="#" className="w-10 h-10 rounded-full bg-card border border-border/50 flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary/30 transition-colors" aria-label="Instagram">
-              <Instagram size={18} />
-            </a>
-            <a href="#" className="w-10 h-10 rounded-full bg-card border border-border/50 flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary/30 transition-colors" aria-label="Twitter">
-              <Twitter size={18} />
-            </a>
-            <a href="#" className="w-10 h-10 rounded-full bg-card border border-border/50 flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary/30 transition-colors" aria-label="Facebook">
-              <Facebook size={18} />
-            </a>
-          </div>
+
 
           <div className="flex flex-col items-center md:items-end gap-2 text-sm text-muted-foreground">
             <a href="mailto:contact@tanaya.app" className="hover:text-primary transition-colors">contact@tanaya.app</a>
