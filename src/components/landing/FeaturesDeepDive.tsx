@@ -1,13 +1,13 @@
-import { Activity, Baby, Bot, Stethoscope, BarChart3, Cloud } from "lucide-react";
+import { ClipboardList, CalendarDays, HeartPulse, BrainCircuit, UserRoundSearch, ShieldPlus } from "lucide-react";
 import { useScrollAnimation } from "@/hooks/use-scroll-animation";
 
 const deepFeatures = [
-  { icon: Activity, title: "Menstrual & Hormonal Analytics", description: "Deep insights into your cycle patterns, hormonal fluctuations, and predictive analytics for better health planning." },
-  { icon: Baby, title: "Pregnancy & Fertility Guidance", description: "Comprehensive support from fertility tracking through each trimester with personalized milestones." },
-  { icon: Bot, title: "AI Chatbot – 24/7 Support", description: "Ask health questions anytime. Our AI assistant provides instant, reliable guidance when you need it most." },
-  { icon: Stethoscope, title: "Expert Consultation", description: "Book appointments with certified gynecologists for professional medical advice and second opinions." },
-  { icon: BarChart3, title: "Health Reports & Trends", description: "Visual health dashboards showing trends over time so you and your doctor stay informed." },
-  { icon: Cloud, title: "Secure Cloud Records", description: "All your health data stored securely in the cloud — accessible only to you, always available." },
+  { icon: ClipboardList, title: "Daily Health Records", description: "Log daily symptoms like mood, discharge, breast pain, headaches, and more to build a complete health picture." },
+  { icon: CalendarDays, title: "Period Tracking & Calendar", description: "Track and record your periods with a smart calendar that predicts your next cycle start and end dates." },
+  { icon: HeartPulse, title: "Symptom Logging", description: "Select and track symptoms like abdomen pain, nausea, itching, giddiness, bloating, and sleeping problems." },
+  { icon: BrainCircuit, title: "AI-Powered Recommendations", description: "Get detailed reports, analysis, and timely notifications so you never miss important health updates." },
+  { icon: UserRoundSearch, title: "Connect with Doctors", description: "Share detailed cycle reports with in-house experts to get the most optimal answers to your health queries." },
+  { icon: ShieldPlus, title: "Health Profile & Guidance", description: "Maintain a comprehensive health profile with personalized wellness guidance, warnings, and actionable insights." },
 ];
 
 const FeaturesDeepDive = () => {
