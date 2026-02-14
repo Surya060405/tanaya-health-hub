@@ -21,7 +21,7 @@ const DownloadSection = () => {
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           {/* Google Play */}
-          <a href="#" className="inline-block">
+          <a href="https://play.google.com/store/apps/details?id=com.systemonsilicon.tanayahealth&hl=en_IN&pli=1" className="inline-block" target="_blank" rel="noopener noreferrer">
             <Button size="lg" className="gradient-pink-purple text-primary-foreground rounded-xl px-8 h-14 text-base hover:opacity-90 transition-opacity shadow-lg shadow-primary/20 gap-3">
               <svg viewBox="0 0 24 24" className="w-6 h-6 fill-current"><path d="M3.609 1.814 13.792 12 3.61 22.186a.996.996 0 0 1-.61-.92V2.734a1 1 0 0 1 .609-.92zm10.89 10.893 2.302 2.302-10.937 6.333 8.635-8.635zm3.199-3.199 2.302 2.302a1 1 0 0 1 0 1.38l-2.302 2.302L15.396 13l2.302-2.492zM5.864 2.658l10.937 6.333-2.302 2.302L5.864 2.658z"/></svg>
               Google Play
