@@ -35,8 +35,7 @@ const CriticalProblemSection = () => {
               isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"
             }`}
           >
-            The Critical Problem in{" "}
-            <span className="text-gradient">Women's Health</span>
+            Critical Problems in <span className="text-gradient">Women's Health</span>
           </h2>
           <p
             className={`text-muted-foreground max-w-2xl mx-auto transition-all duration-700 delay-100 ${
@@ -60,12 +59,8 @@ const CriticalProblemSection = () => {
               <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-4">
                 <card.icon size={24} className="text-primary" />
               </div>
-              <h3 className="font-heading font-semibold text-lg mb-2">
-                {card.title}
-              </h3>
-              <p className="text-sm text-muted-foreground leading-relaxed">
-                {card.description}
-              </p>
+              <h3 className="font-heading font-semibold text-lg mb-2">{card.title}</h3>
+              <p className="text-sm text-muted-foreground leading-relaxed">{card.description}</p>
             </div>
           ))}
         </div>
@@ -77,14 +72,11 @@ const CriticalProblemSection = () => {
           }`}
           style={{ transitionDelay: "600ms" }}
         >
-          <h3 className="font-heading font-bold text-lg md:text-xl mb-3">
-            The Need of the Hour
-          </h3>
+          <h3 className="font-heading font-bold text-lg md:text-xl mb-3">The Need of the Hour</h3>
           <p className="text-sm md:text-base leading-relaxed text-white/90">
-            A unified platform for data management, early detection, smart
-            prediction, health guidance, efficient connections, and timely alerts
-            — to save &amp; protect lives and improve end-to-end health
-            infrastructure for women everywhere.
+            A unified platform for data management, early detection, smart prediction, health guidance, efficient
+            connections, and timely alerts — to save &amp; protect lives and improve end-to-end health infrastructure
+            for women everywhere.
           </p>
         </div>
       </div>
