@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 import tanayaLogo from "@/assets/tanaya-logo.png";
 
 const navLinks = [
@@ -16,9 +17,9 @@ const Navbar = () => {
   return (
     <header className="sticky top-0 z-50 bg-background/80 backdrop-blur-lg border-b border-border/50">
       <nav className="container mx-auto flex items-center justify-between h-16 px-4 md:px-8">
-        <a href="#" className="flex items-center gap-2">
+        <Link to="/" className="flex items-center gap-2">
           <img src={tanayaLogo} alt="TANAYA logo" className="h-10 w-auto" />
-        </a>
+        </Link>
 
         {/* Desktop links */}
         <ul className="hidden md:flex items-center gap-8">
