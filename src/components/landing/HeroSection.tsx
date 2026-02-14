@@ -16,9 +16,12 @@ const HeroSection = () => {
             AI-Powered Women's Health
           </div>
 
-          <h1 className="font-heading text-4xl md:text-6xl lg:text-7xl font-bold leading-tight mb-6 animate-fade-up" style={{ animationDelay: "0.1s" }}>
-            <span className="text-gradient">TANAYA</span> – Caring for Daughters
+          <h1 className="font-heading text-4xl md:text-6xl lg:text-7xl font-bold leading-tight mb-2 animate-fade-up" style={{ animationDelay: "0.1s" }}>
+            <span className="text-gradient">TANAYA</span>
           </h1>
+          <p className="text-xl md:text-2xl text-muted-foreground font-medium mb-6 animate-fade-up" style={{ animationDelay: "0.15s" }}>
+            Caring for Daughters
+          </p>
 
           <p className="text-lg md:text-xl text-muted-foreground mb-4 animate-fade-up" style={{ animationDelay: "0.2s" }}>
             Your trusted AI-powered companion for gynecological health, guidance, and care.
