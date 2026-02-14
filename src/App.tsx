@@ -11,6 +11,7 @@ import SymptomLogging from "./pages/features/SymptomLogging";
 import AIRecommendations from "./pages/features/AIRecommendations";
 import ConnectWithDoctors from "./pages/features/ConnectWithDoctors";
 import HealthProfile from "./pages/features/HealthProfile";
+import ScrollToTop from "./components/ScrollToTop";
 
 const queryClient = new QueryClient();
 
@@ -20,6 +21,7 @@ const App = () => (
       <Toaster />
       <Sonner />
       <BrowserRouter>
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/features/daily-health-records" element={<DailyHealthRecords />} />
